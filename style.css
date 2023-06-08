@@ -1,0 +1,23 @@
+body{
+  font-family: sans-serif;
+  background: lightgray;
+}
+
+.container{
+  margin:200px 550px;
+}
+
+.number1,.number2{
+  padding:7px;
+}
+
+.button{
+  margin:10px 9px;
+  font-size: 18px;
+}
+
+h1{
+  width:500px;
+  right:20px;
+  position: relative;
+}
