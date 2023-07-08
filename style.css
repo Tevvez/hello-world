@@ -1,23 +1,166 @@
+*, *::before , *::after {
+	box-sizing: border-box;
+}
+
 body{
-  font-family: sans-serif;
-  background: lightgray;
+	margin: 0;
+	font-family: 'Manrope', sans-serif;
+
 }
 
-.container{
-  margin:200px 550px;
+html{
+	height:100%;
 }
 
-.number1,.number2{
-  padding:7px;
+img{
+	display:block;
+}
+
+.main-page{
+	display:flex;
+	flex-direction: column;
+	justify-content:space-between;
+}
+
+/* Header */
+
+.header{
+	display:flex;
+	align-items: center;
+	height: 73px;
+	border-bottom:1px solid #E5E9F2;
+}
+
+.header-container{
+	width: 1110px;
+	margin: 0 auto;
+	display:flex;
+	align-items:center;
+}
+
+.logo{
+	margin-right: 40px;
+}
+
+.nav{
+	margin:-4px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1;
+	color:black;
+}
+
+.nav-link{
+	margin-right:32px;
+	color:black;
+	text-decoration: none;
+}
+
+.nav-link:hover{
+	color: #8C30F5;
+}
+
+.nav-link:last-child{
+	margin-right: 0;
+}
+
+.appstore{
+	margin-left: auto;
+	display:flex;
+
+}
+
+.appstore-item:first-child{
+	margin-left:12px;
+}
+
+/* Main */
+
+.main{
+
+}
+
+.main-container{
+	width: 1110px;
+	margin: 0 auto;
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
+
+	padding-top: 197px;
+	padding-bottom: 197px;
+}
+
+.main-content{
+	font-size: 18px;
+	width: 540px;
+	color:black;
+}
+
+.main-img{
+
+}
+
+
+.main-header{
+	margin-bottom: 16px;
+	margin-top:0;
+	font-weight:800;
+	font-size: 72px;
+	line-height:1.36;
+	color: black;
+}
+
+.main-content p{
+	margin-bottom: 15px;
+	font-size: 18px;
+	line-height: 1.78;
 }
 
 .button{
-  margin:10px 9px;
-  font-size: 18px;
+	display:inline-block;
+	padding-left: 35px;
+	padding-right: 35px;
+	height:62px;
+	background: #8C30F5;
+	border-radius: 8px;
+
+	font-weight:bold;
+	line-height: 62px;
+	font-size: 20px;
+	color:white;
+	text-decoration:none;
 }
 
-h1{
-  width:500px;
-  right:20px;
-  position: relative;
+.button:hover{
+	opacity: 0.8;
+}
+
+/* FOOTER */
+
+.footer{
+	height: 72px;
+	background: black;
+	color: white;
+	align-items:center;
+}
+
+.footer-container{
+	width: 1110px;
+	margin: 0 auto;
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
+}
+
+.footer-copyright{
+	font-size:14px;
+}
+
+.footer-socials{
+	display:flex;
+}
+
+.footer-socials-item{
+	margin-left:16px;
 }

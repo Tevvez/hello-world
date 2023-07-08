@@ -1,31 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="style.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<title>TaskTracker</title>
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap" rel="stylesheet">
+
 </head>
-<body>
 
-<div class="container">
-    
-    <h1>Basic Calculator</h1>
+<body class="main-page">
+	
+	<header class="header">
+		<div class="header-container">
+			<div class="logo">
+				<img src="logo.svg" alt="TaskTracker">
+			</div>
+		    <nav class="nav">
+		    	<a 	class="nav-link" href="#">Apps</a>
+		    	<a class="nav-link" href="#">Possibilities</a>
+		    	<a class="nav-link" href="#">Cost</a>
+		    	<a class="nav-link" href="#">Blog</a>
+		    	<a class="nav-link" href="#">Contacts</a>
+		    </nav>
+		    <div class="appstore">
+		    	<a class="appstore-item" href="#">
+		    		<img src="googleplay.svg" alt="Google Play">
+		    	</a>
+		    	<a class="appstore-item" href="#">
+		    		<img src="appstore.png" alt="App Store">
+		    	</a>
+		    </div>
+		</div>
+	</header>
 
-    <input placeholder="first number" type="text" class="number1"><br><br>
-    <input placeholder="second number" type="text" class="number2">
+	<main class="main">
+		<div class="main-container">
+			<div class="main-content">
 
-    <br><br>
+				<h1 class="main-header">Organizer App</h1>
+			<div class="main-text">
+				<p>Контролируй все свои дела и задачи. Не упускай ничего важного. Заметки, даты и напоминания. Все в одном месте</p>
+			</div>
+				<a class="button" href="#">Начать пользоваться</a>
 
+			</div>
+			<div class="main-img">
+				<img src="image1.jpg">
+			</div>
+		</div>
+	</main>
 
-    <button class="button plus">+</button>
-    <button class="button minus">-</button>
-    <button class="button multiply">X</button>
-    <button class="button divide">:</button>
+	<footer class="footer">
+		<div class="footer-container">
+			<div class="footer-copyright">
+				<p>© 2021 ТаскТрекер. Все права защищены</p>
+			</div>
+			<div class="footer-socials">
+				<a class="footer-socials-item" href="#"><img src="Dribbble.svg" alt="Dribbble"></a>
+				<a class="footer-socials-item" href="#"><img src="Instagram.svg" alt="Instagram"></a>
+				<a class="footer-socials-item" href="#"><img src="Twitter.svg" alt="Twitter"></a>
+				<a class="footer-socials-item" href="#"><img src="Youtube.svg" alt="Youtube"></a>
+			</div>
+		</div>
 
-    <br><br>
-
-    Result:<p class="result"></p>
-
-</div>
-
-    <script src="script.js"></script>
 </body>
 </html>
